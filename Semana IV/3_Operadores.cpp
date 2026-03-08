@@ -5,11 +5,11 @@ int main() {
     int a = 10;
     int b = 3;
 
-    cout << a + b << endl;
-    cout << a - b << endl;
-    cout << a * b << endl;
-    cout << a / b << endl;
-    cout << a % b << endl;
+    int x = a + b;
+    x = a - b;
+    x = a * b;
+    x = a / b;
+    x = a % b;
 
     return 0;
 }

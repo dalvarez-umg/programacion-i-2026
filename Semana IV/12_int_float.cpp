@@ -2,14 +2,11 @@
 using namespace std;
 
 int main() {
-    int a = 7;
-    float b = 2;
+    int nota1 = 8;
+    int nota2 = 8;
+    int nota3 = 8;
+    int nota4 = 5;
 
-    cout << a / b << endl;
-
-    float x = 7;
-    int y = 2;
-    cout << x / y << endl;
-
+    cout << (nota1 + nota2 + nota3 + nota4) / 4 << endl;
     return 0;
 }

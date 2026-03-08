@@ -2,9 +2,10 @@
 using namespace std;
 
 int main() {
-    float a = 5;
-    float b = 2;
+    int a = 5;
+    int b = 2;
 
-    cout << a / b << endl;
+    int x = (float)a / b;
+    cout << x << endl;
     return 0;
 }
