@@ -2,14 +2,9 @@
 using namespace std;
 
 int main() {
-    int edad = 20;
+    int nota = 90;
 
-    if (edad >= 18) {
-        edad = 20;
-        cout << "Es mayor de edad" << endl;
-        return 0;
+    if (nota == 90) {
+        cout << "nota = " << nota << endl;
     }
-    cout << "Es menor de edad";
-
-    return 0;
 }
